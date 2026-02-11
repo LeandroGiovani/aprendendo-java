@@ -70,22 +70,7 @@ Este repositório representa um ambiente de **treinamento prático**, desenvolvi
 
 ---
 
-## 🚀 Próximos Passos
-
-- Implementar atualização (Update) no CRUD
-- Utilizar `HashMap`
-- Persistência em arquivo
-- Separação em camadas (Service / Repository)
-- Evoluir para Spring Boot
-
----
-
 ## 📌 Observação
 
 Este repositório tem finalidade educacional e de prática contínua.  
 Os códigos aqui presentes representam minha evolução progressiva na tecnologia Java.
-
----
-
-### 👨‍💻 Desenvolvido por
-**Leandro Maciel Giovani**
