@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Crud {
+public class Desafio5 {
     public static void main(String[] args) {
         List<Pessoa> pessoas = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         int opcao;
 
-        while (true) { 
-            System.out.println("/n=====MENU======");
+        do { 
+            System.out.println("\n=====MENU======");
             System.out.println("[1] - Cadastrar");
             System.out.println("[2] - Listar");
             System.out.println("[3] - Buscar por nome");
@@ -80,11 +80,12 @@ public class Crud {
                 case 0:
                     sc.close();
                     System.out.println("Saindo do sistema...");
+                    break;
                 default:
                     System.out.println("Opção inválida");
             }
 
-        }
+        } while (opcao != 0);
 
     }
 }
